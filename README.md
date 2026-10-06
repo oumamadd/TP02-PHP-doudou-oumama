@@ -37,3 +37,14 @@ Noms invalides : $a! (caractère interdit), $1a (commence par un chiffre).
 Avec echo, false est converti en chaîne vide : aucun caractère
 n'est affiché. Avec var_dump(), son type et sa valeur apparaissent :
 bool(false).
+## Exercice 5 — Tests
+
+| Moyenne testée | Message obtenu |
+|---|---|
+| -1 | Note invalide |
+| 9 | Non validé |
+| 10 | Passable |
+| 12 | Assez bien |
+| 14 | Bien |
+| 16 | Très bien |
+| 21 | Note invalide |

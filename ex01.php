@@ -17,7 +17,7 @@
      */
     echo "<p>Nom : Amrani</p>";
     echo "<p>Prénom : Lina</p>";
-    echo "<p>Groupe : G1</p>";
+    echo "<p>Groupe : G4</p>";
     ?>
 
     <p><?= "J'apprends à intégrer PHP dans une page HTML." ?></p>

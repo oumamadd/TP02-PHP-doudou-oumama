@@ -25,3 +25,10 @@ Depuis le dossier du projet, lancer dans PowerShell :
     & "C:\xampp\php\php.exe" -S localhost:8000
 
 Puis ouvrir http://localhost:8000/index.php.s
+## Exercice 2 — Réponses
+
+Les variables $note et $Note sont différentes car PHP est sensible
+à la casse : les majuscules et les minuscules sont distinguées.
+
+Noms valides : $a, $_a, $a_a, $AAA, $a1.
+Noms invalides : $a! (caractère interdit), $1a (commence par un chiffre).

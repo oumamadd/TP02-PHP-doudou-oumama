@@ -48,3 +48,15 @@ bool(false).
 | 14 | Bien |
 | 16 | Très bien |
 | 21 | Note invalide |
+## Exercice 10 — GET et POST
+
+Avec GET, les valeurs apparaissent dans l'URL après le signe ?,
+par exemple : ex10_get.php?nom=Amrani&prenom=Lina&groupe=G1.
+
+Avec POST, les valeurs sont envoyées dans le corps de la requête HTTP.
+Elles n'apparaissent pas dans l'URL, qui se termine par ex10_post.php.
+POST ne chiffre pas les données à lui seul.
+
+Les deux traitements vérifient la présence des champs et refusent
+les valeurs vides, y compris les chaînes composées seulement d'espaces.
+Les données affichées sont échappées avec htmlspecialchars().

@@ -32,3 +32,8 @@ Les variables $note et $Note sont différentes car PHP est sensible
 
 Noms valides : $a, $_a, $a_a, $AAA, $a1.
 Noms invalides : $a! (caractère interdit), $1a (commence par un chiffre).
+## Exercice 4 — Réponse
+
+Avec echo, false est converti en chaîne vide : aucun caractère
+n'est affiché. Avec var_dump(), son type et sa valeur apparaissent :
+bool(false).
